@@ -1,0 +1,60 @@
+/* Container for the ProductDetails component */
+.product-details-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .product-details-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .product-details-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .product-details-container input:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+  .product-details-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .product-details-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for error and product display */
+  .product-details-container .error-message {
+    color: #f44336;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .product-details-container .product-data {
+    margin-top: 10px;
+    color: #28a745;
+    text-align: center;
+    font-weight: bold;
+  }
+  

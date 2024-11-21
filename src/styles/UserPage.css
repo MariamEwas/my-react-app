@@ -1,0 +1,79 @@
+/* General styles for the user page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* User Page container */
+.user-page {
+    width: 700px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.user-page h1 {
+    text-align: center;
+    color: #0073e6;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* List styles */
+.user-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-page li {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-page li:hover {
+    background-color: #eef6ff;
+    border-color: #0073e6;
+    transition: 0.3s;
+}
+
+.user-page li .cart-button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.user-page li .cart-button:hover {
+    background-color: #005bb5;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}

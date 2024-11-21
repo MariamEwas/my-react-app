@@ -1,0 +1,98 @@
+/* Container styling */
+.shopping-cart-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Title styling */
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Search section styling */
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Cart details styling */
+.cart-details {
+    margin-top: 20px;
+}
+
+.cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-price {
+    color: green;
+}
+
+.product-quantity {
+    color: #555;
+}
+
+/* No cart and error message styling */
+.no-cart {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}
